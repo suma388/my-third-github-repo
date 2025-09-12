@@ -10,3 +10,12 @@ h3{
     text-decoration: underline green;
     font-size: large;
 }
+.first div{
+    color: chocolate;
+    background-color: beige;
+    font-size: large;
+    padding: 20px;
+    margin: 40px;
+    border: 5px solid green;
+    border-radius: 5px;
+}
