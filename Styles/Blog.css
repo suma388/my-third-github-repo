@@ -3,6 +3,10 @@ div{
     color: brown;
     background-color: antiquewhite;
     padding: 20px;
-    margin: auto;
+    margin: 30px;
     text-align: center;
+}
+h3{
+    text-decoration: underline green;
+    font-size: large;
 }
