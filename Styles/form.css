@@ -1,0 +1,18 @@
+
+*{
+    margin: auto;
+}
+main{
+    color: brown;
+    background-color: bisque;
+    padding: 30PX;
+    margin: 50PX;
+}
+label{
+    display: block;
+    margin: 10PX;
+    box-sizing: border-box;
+}
+fieldset{
+    margin-right: 50%;
+}

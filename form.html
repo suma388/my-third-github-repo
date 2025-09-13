@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+    <link rel="stylesheet" href="Styles/form.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td ,th {
+            border: 2px solid black;
+            padding: 5px 7px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h2>Please filup the form</h2>
+        <form action="">
+            <label for="name">
+                Name: <input type="text" placeholder="Your full name" name="Name" id="name">
+            </label>
+            <label for="number">
+                Number: <input type="text" placeholder="Enter your number" name="number" id="number">
+            </label>
+            <label for="email">
+                E-mail: <input type="email" placeholder="Enter your email" name="email" id="email">
+            </label>
+            <label for="password">
+                Password: <input type="password" placeholder="Enter your password" name="password" id="password">
+            </label>
+            <label for="date">
+                Date of birth: <input type="date" name="date" id="date">
+            </label>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female
+            </label>
+            <label for="other">
+                <input type="radio" name="gender" id="other">Other
+            </label>
+            <p>Do you accept our terms and condtions?</p>
+            <label for="yes">
+                <input type="checkbox" name="box" id="yes">Yes
+            </label>
+            <label for="no">
+                <input type="checkbox" name="box" id="no">No
+            </label>
+            <fieldset>
+                <legend>How was your expriance</legend>
+                <input type="radio" name="good" id="">Good <br>
+                <input type="radio" name="good" id="">Bad
+            </fieldset>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>name</th>
+                    <th>profesion</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Jame</td>
+                    <td>Sumaiya</td>
+                    <td>Zarin</td>
+                    <td>Faiza</td>
+                </tr>
+                <tr>
+                    <td>web devoloper</td>
+                    <td>softwer </td>
+                    <td>Facebook</td>
+                    <td>Whatsapp</td>
+                </tr>
+                <tr>
+                    <td>$1000</td>
+                    <td>$1200</td>
+                    <td>$1300</td>
+                    <td>$1400</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total 4 number</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

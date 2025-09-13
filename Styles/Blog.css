@@ -1,4 +1,12 @@
 
+
+nav > ul > li{
+    display: inline;
+    margin-right: 50px;
+}
+ nav > ul > li > a{
+    text-decoration: none;
+}
 div{
     color: brown;
     background-color: antiquewhite;
@@ -18,4 +26,11 @@ h3{
     margin: 40px;
     border: 5px solid green;
     border-radius: 5px;
+}
+img{
+    width: 200px;
+    border: 5px solid tomato;
+}
+footer{
+    text-align: center;
 }
