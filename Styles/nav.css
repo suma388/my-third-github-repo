@@ -2,7 +2,7 @@
 * {
     margin:20px 50px;
 }
-nav ul {
+nav >ul {
     display: flex;
 }
 nav li{
@@ -17,5 +17,15 @@ nav li :hover{
     color: antiquewhite;
     background-color: cornflowerblue;
     border-radius: 5px;
-    padding: 20px 30px;
+    padding: 10px 20px;
+}
+
+nav li .dropdown{
+    display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+    padding: 2px;
+    margin: 0%;
+    background-color: antiquewhite;
 }
